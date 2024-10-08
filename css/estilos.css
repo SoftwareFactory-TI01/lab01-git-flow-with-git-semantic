@@ -26,10 +26,15 @@ body {
     object-fit: cover; /* Hace que la imagen cubra completamente el contenedor sin distorsionarse */
   }
   
-
-  
 .container {
   width: 80%;
   margin: 0 auto;
   overflow: hidden;
+}
+
+.logo {
+  float: left;
+  font-size: 1.5em;
+  margin-top: 10px;
+  color: #fff;
 }
