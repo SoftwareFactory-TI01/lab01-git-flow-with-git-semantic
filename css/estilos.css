@@ -51,3 +51,15 @@ body {
   border: none;
   font-size: 16px;
 }
+
+/* Estilos para el botón de búsqueda */
+.search-button {
+  padding: 6px 10px;
+  background-color: #3498db; /* Color azul */
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0; /* Bordes redondeados en el lado derecho */
+}
+
