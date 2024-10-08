@@ -63,3 +63,122 @@ body {
   border-radius: 0 5px 5px 0; /* Bordes redondeados en el lado derecho */
 }
 
+
+/* Estilos para el botón al pasar el ratón */
+.search-button:hover {
+  background-color: #2980b9; /* Color azul más oscuro al pasar el ratón */
+}
+
+.gallery {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 30%;
+  margin: 10px;
+  box-sizing: border-box;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+}
+
+.blog,
+.contact {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.blog {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.blog h2 {
+  text-align: center;
+}
+
+.blog-entry {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: flex-start; /* Alinea los elementos en la parte superior del contenedor flex */
+}
+
+.blog-entry img {
+  width: 400px; /* Establece el ancho de la imagen */
+  height: auto; /* Mantiene la proporción original de la imagen */
+  margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.blog-entry h3 {
+  margin-top: 0; /* Elimina el margen superior del título para que esté más cerca de la imagen */
+}
+
+.blog-entry p {
+  margin-bottom: 10px;
+}
+
+.blog-entry a {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.blog-entry a:hover {
+  background-color: #2980b9;
+}
+
+
+.contact {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #333; /* Fondo oscuro */
+  color: #fff;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+#contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#contact-form button {
+  background-color: #3498db; /* Color azul */
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#contact-form button:hover {
+  background-color: #2980b9; /* Color azul más oscuro al pasar el ratón */
+}
+
