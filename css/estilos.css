@@ -44,3 +44,10 @@ body {
   line-height: 80px;
   position: relative; /* Agregamos posición relativa para posicionar el botón */
 }
+
+.search input[type="text"] {
+  padding: 5px;
+  margin-top: 10px;
+  border: none;
+  font-size: 16px;
+}
